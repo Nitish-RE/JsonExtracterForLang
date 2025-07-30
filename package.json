@@ -1,0 +1,12 @@
+{
+  "name": "script-to-get-json",
+  "version": "1.0.0",
+  "description": "Extracts label translations from Excel to en.json and de.json",
+  "main": "extract-json.js",
+  "scripts": {
+    "extract": "node extract-json.js"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+} 
